@@ -45,12 +45,12 @@ try {
 
 if (! isset($accessToken)) {  //caso não exista
 
-	$url_login = 'http://localhost/SistemaLogin_PHP/face.php';
+	$url_login = 'http://localhost/SistemaLoginPHP/face.php';
 	$loginUrl = $helper->getLoginUrl($url_login, $permissions);
 
 }else{ //se existir
 
-	$url_login = 'http://localhost/SistemaLogin_PHP/face.php';
+	$url_login = 'http://localhost/SistemaLoginPHP/face.php';
 	$loginUrl = $helper->getLoginUrl($url_login, $permissions);
 	
 	//Verifica se Usuário ja é autenticado nesta seção
